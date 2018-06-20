@@ -8,6 +8,7 @@ def line(array)
       if array.size > 0
             for x in 0..array.size do
             puts "The line is currently: #{x+1}. #{array.index(x)}"
+      end
       else
             puts "The line is currently empty."
       end
