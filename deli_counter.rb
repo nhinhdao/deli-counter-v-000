@@ -8,7 +8,7 @@ end
 def line(array)
       # binding.pry
       if array.size > 0
-            new array = []
+            newarray = []
             for x in 0..array.size do
                   newarray[x] = "#{x+1}. #{array[x]}"
             end
