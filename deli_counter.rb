@@ -6,13 +6,11 @@ def take_a_number(array, name)
 end
 
 def line(array)
-      # binding.pry
+      binding.pry
       if array.size > 0
             print "The line is currently: "
             for x in array do
-                  for y in 0..array.size do
-                        print "#{y+1}. #{x} "
-                  end
+                  print "#{array.index(x) + 1}. #{array[x]} "
             end
       else
             puts "The line is currently empty."
