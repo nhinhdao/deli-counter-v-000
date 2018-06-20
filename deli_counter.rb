@@ -12,8 +12,8 @@ def line(array)
             for x in 0..array.size do
                   newarray[x] = "#{x+1}. " + array[x]
             end
-            newarray.join(" ")
-            print "The line is currently: " + newarray
+
+            print "The line is currently: #{newarray.join(" ")}"
       else
             puts "The line is currently empty."
       end
