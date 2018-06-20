@@ -27,5 +27,5 @@ end
 array = ["Logan", "Avi", "Spencer"]
 array2 = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 line(array)
-
+put "\n"
 line(array2)
