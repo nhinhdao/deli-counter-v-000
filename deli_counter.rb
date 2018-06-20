@@ -8,7 +8,7 @@ end
 def line(array)
       # binding.pry
       if array.size > 0
-            puts "The line is currently:  #{array.each_with_index {|x,i| "#{i+1}. #{x} "}}"
+            array.each_with_index {|x,i| puts "The line is currently: #{i+1}. #{x} "
       else
             puts "The line is currently empty."
       end
