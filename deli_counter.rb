@@ -23,3 +23,9 @@ def now_serving(array)
             puts "There is nobody waiting to be served!"
       end
 end
+
+array = ["Logan", "Avi", "Spencer"]
+array2 = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
+line(array)
+
+line(array2)
