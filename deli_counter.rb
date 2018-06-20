@@ -6,8 +6,8 @@ end
 
 def line(array)
       if array.size > 0
-            print "The line is currently:"
-            line.each_with_index {|name, index| print  " #{index +1}. #{name}"}
+            for x in 0..array.size do
+            puts "The line is currently: #{x+1}. #{array.index(x)}"
       else
             puts "The line is currently empty."
       end
