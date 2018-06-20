@@ -9,7 +9,7 @@ def line(array)
       # binding.pry
       if array.size > 0
             newarray = Array.new(array.size)
-            for x in 0..array.size do
+            for x in 0..array.size-1 do
                   newarray[x] = "#{x + 1}. #{array[x]} "
             end
             # newarray.join
