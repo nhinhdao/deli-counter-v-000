@@ -10,7 +10,7 @@ def line(array)
       if array.size > 0
             print "The line is currently: "
             for x in array do
-                  print "#{array.index(x) + 1}. #{array[x]} "
+                  print "#{array.index(x) + 1}. #{x} "
             end
       else
             puts "The line is currently empty."
