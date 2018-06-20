@@ -8,8 +8,10 @@ end
 def line(array)
       # binding.pry
       if array.size > 0
-            for x in array do
-                  puts "The line is currently: #{array.index(x) + 1}. #{x} "
+
+                  puts "The line is currently: "
+                  for x in array do
+                  "#{array.index(x) + 1}. #{x}"
             end
             # array.each_with_index {|x,i| puts "The line is currently: #{i+1}. #{x} "}
       else
