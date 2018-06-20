@@ -12,8 +12,9 @@ def line(array)
             for x in 0..array.size-1 do
                   newarray[x] = "#{x + 1}. #{array[x]} "
             end
+            # newarray.join
 
-            puts "The line is currently: #{newarray.each{|x| x}}"
+            puts "The line is currently: #{newarray.join}"
 
             # for x in 0..array.size-1 do
             #       "#{x+1}. #{array[x]} "
