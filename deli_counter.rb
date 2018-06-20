@@ -15,7 +15,7 @@ def line(array)
 
             puts "The line is currently: "
             for x in 0..array.size-1 do
-                  print "#{x+1}. #{array[x]}"
+                  print "#{x+1}. #{array[x]} "
             end
 
 
