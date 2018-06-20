@@ -13,7 +13,7 @@ def line(array)
                   newarray[x] = "#{x + 1}. #{array[x]} "
             end
 
-            puts "The line is currently: #{newarray}"
+            puts "The line is currently: #{newarray.each{|x| print x}}"
 
             # for x in 0..array.size-1 do
             #       "#{x+1}. #{array[x]} "
