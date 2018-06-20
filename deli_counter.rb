@@ -4,7 +4,7 @@ def take_a_number(array, name)
       puts "Welcome, #{name}. You are number #{array.index(name)+ 1} in line."
 end
 
-def line
+def line(array)
       if array.size > 0
             print "The line is currently:"
             line.each_with_index {|name, index| print  " #{index +1}. #{name}"}
