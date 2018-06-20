@@ -1,10 +1,12 @@
 # Write your code here.
+require 'pry'
 def take_a_number(array, name)
       array << name
       puts "Welcome, #{name}. You are number #{array.index(name)+ 1} in line."
 end
 
 def line(array)
+      binding.pry
       if array.size > 0
             print "The line is currently: "
             for x in 0..array.size do
