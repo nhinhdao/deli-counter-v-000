@@ -9,8 +9,10 @@ def line(array)
       binding.pry
       if array.size > 0
             print "The line is currently: "
-            for x in 0..array.size do
-                  print "#{x+1}. #{array[x]} "
+            for x in array do
+                  for y in 0..array.size do
+                        print "#{y+1}. #{x} "
+                  end
             end
       else
             puts "The line is currently empty."
