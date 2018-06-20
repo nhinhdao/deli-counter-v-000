@@ -8,7 +8,8 @@ end
 def line(array)
       # binding.pry
       if array.size > 0
-            array.collect.with_index {|x, i| i+1 + x}
+            array.map_with_index {|x,i| i+1 + " " + x}
+            ar
             print "The line is currently: "
             for x in array do
                   print "#{array.index(x) + 1}. #{x} "
